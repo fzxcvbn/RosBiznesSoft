@@ -137,7 +137,6 @@ ul {
     padding-left: 2rem;
     list-style-type: none;
 }
-  
 ul li {
     padding-left: 2rem;
     background-image: url(галочка.png);
@@ -148,7 +147,7 @@ ul li {
 .conteiner3-crm-base {
     margin-left: -30px;
 }
-.users1-5-10-25-100, .users2-5-10-25-100, .users3-5-10-25-100, .users4-5-10-25-100 {
+.users1-5-10-25-1001, .users2-5-10-25-1001, .users3-5-10-25-1001, .users4-5-10-25-1001, .users1-5-10-25-1002, .users2-5-10-25-1002, .users3-5-10-25-1002, .users4-5-10-25-1002 {
     display: none;
     justify-content: center;
     align-items: center;
@@ -161,10 +160,10 @@ ul li {
 .users15, .users110, .users125, .users1100, .users25, .users210, .users225, .users2100, .users35, .users310, .users325, .users3100, .users45, .users410, .users425, .users4100 {
     margin-right: 20px;
     font-size: 15px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 3px;
 }
 .users15, .users25, .users35, .users45 {
     border: 1px solid black;
-    padding: 6px;
-    border-radius: 3px;
-    cursor: pointer;
 }

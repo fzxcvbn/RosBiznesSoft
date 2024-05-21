@@ -26,14 +26,34 @@ let month61 = document.querySelector(".month61"),
     conteiner_month6_year2 = document.querySelector('.conteiner-month6-year2'),
     conteiner_month6_year3 = document.querySelector('.conteiner-month6-year3'),
     conteiner_month6_year4 = document.querySelector('.conteiner-month6-year4'),
-    users1_5_10_25_100 = document.querySelector('.users1-5-10-25-100'),
-    users2_5_10_25_100 = document.querySelector('.users2-5-10-25-100'),
-    users3_5_10_25_100 = document.querySelector('.users3-5-10-25-100'),
-    users4_5_10_25_100 = document.querySelector('.users4-5-10-25-100'),
+    users1_5_10_25_1001 = document.querySelector('.users1-5-10-25-1001'),
+    users2_5_10_25_1001 = document.querySelector('.users2-5-10-25-1001'),
+    users3_5_10_25_1001 = document.querySelector('.users3-5-10-25-1001'),
+    users4_5_10_25_1001 = document.querySelector('.users4-5-10-25-1001'),
+    users1_5_10_25_1002 = document.querySelector('.users1-5-10-25-1002'),
+    users2_5_10_25_1002 = document.querySelector('.users2-5-10-25-1002'),
+    users3_5_10_25_1002 = document.querySelector('.users3-5-10-25-1002'),
+    users4_5_10_25_1002 = document.querySelector('.users4-5-10-25-1002'),
     users1_forever = document.querySelector('.users1-forever'),
     users2_forever = document.querySelector('.users2-forever'),
     users3_forever = document.querySelector('.users3-forever'),
-    users4_forever = document.querySelector('.users4-forever')
+    users4_forever = document.querySelector('.users4-forever'),
+    users15 = document.querySelector('.users15'),
+    users25 = document.querySelector('.users25'),
+    users35 = document.querySelector('.users35'),
+    users45 = document.querySelector('.users45'),
+    users110 = document.querySelector('.users110'),
+    users210 = document.querySelector('.users210'),
+    users310 = document.querySelector('.users310'),
+    users410 = document.querySelector('.users410'),
+    users125 = document.querySelector('.users125'),
+    users225 = document.querySelector('.users225'),
+    users325 = document.querySelector('.users325'),
+    users425 = document.querySelector('.users425'),
+    users1100 = document.querySelector('.users1100'),
+    users2100 = document.querySelector('.users2100'),
+    users3100 = document.querySelector('.users3100'),
+    users4100 = document.querySelector('.users4100')
 
 month61.addEventListener("click", function() {
     price1.style.color = 'black'
@@ -127,10 +147,14 @@ rent.addEventListener("click", function() {
     conteiner_month6_year2.style.display = 'block'
     conteiner_month6_year3.style.display = 'block'
     conteiner_month6_year4.style.display = 'block'
-    users1_5_10_25_100.style.display = 'none'
-    users2_5_10_25_100.style.display = 'none'
-    users3_5_10_25_100.style.display = 'none'
-    users4_5_10_25_100.style.display = 'none'
+    users1_5_10_25_1001.style.display = 'none'
+    users2_5_10_25_1001.style.display = 'none'
+    users3_5_10_25_1001.style.display = 'none'
+    users4_5_10_25_1001.style.display = 'none'
+    users1_5_10_25_1002.style.display = 'none'
+    users2_5_10_25_1002.style.display = 'none'
+    users3_5_10_25_1002.style.display = 'none'
+    users4_5_10_25_1002.style.display = 'none'
     users1_forever.style.display = 'none'
     users2_forever.style.display = 'none'
     users3_forever.style.display = 'none'
@@ -165,10 +189,14 @@ purchase.addEventListener("click", function() {
     conteiner_month6_year2.style.display = 'none'
     conteiner_month6_year3.style.display = 'none'
     conteiner_month6_year4.style.display = 'none'
-    users1_5_10_25_100.style.display = 'flex'
-    users2_5_10_25_100.style.display = 'flex'
-    users3_5_10_25_100.style.display = 'flex'
-    users4_5_10_25_100.style.display = 'flex'
+    users1_5_10_25_1002.style.display = 'none'
+    users2_5_10_25_1002.style.display = 'none'
+    users3_5_10_25_1002.style.display = 'none'
+    users4_5_10_25_1002.style.display = 'none'
+    users1_5_10_25_1001.style.display = 'flex'
+    users2_5_10_25_1001.style.display = 'flex'
+    users3_5_10_25_1001.style.display = 'flex'
+    users4_5_10_25_1001.style.display = 'flex'
     users1_forever.style.display = 'block'
     users2_forever.style.display = 'block'
     users3_forever.style.display = 'block'
@@ -203,12 +231,144 @@ subscription.addEventListener("click", function() {
     conteiner_month6_year2.style.display = 'none'
     conteiner_month6_year3.style.display = 'none'
     conteiner_month6_year4.style.display = 'none'
-    users1_5_10_25_100.style.display = 'flex'
-    users2_5_10_25_100.style.display = 'flex'
-    users3_5_10_25_100.style.display = 'flex'
-    users4_5_10_25_100.style.display = 'flex'
+    users1_5_10_25_1001.style.display = 'none'
+    users2_5_10_25_1001.style.display = 'none'
+    users3_5_10_25_1001.style.display = 'none'
+    users4_5_10_25_1001.style.display = 'none'
+    users1_5_10_25_1002.style.display = 'flex'
+    users2_5_10_25_1002.style.display = 'flex'
+    users3_5_10_25_1002.style.display = 'flex'
+    users4_5_10_25_1002.style.display = 'flex'
     users1_forever.style.display = 'block'
     users2_forever.style.display = 'block'
     users3_forever.style.display = 'block'
     users4_forever.style.display = 'block'
+})
+
+users15.addEventListener("click", function() {
+    users15.style.border = '1px solid black'
+    users110.style.border = 'none'
+    users125.style.border = 'none'
+    users1100.style.border = 'none'
+    price1.textContent = '67 023 ₽'
+})
+
+users25.addEventListener("click", function() {
+    users25.style.border = '1px solid black'
+    users210.style.border = 'none'
+    users225.style.border = 'none'
+    users2100.style.border = 'none'
+    price2.textContent = '82 148 ₽'
+})
+
+users35.addEventListener("click", function() {
+    users35.style.border = '1px solid black'
+    users310.style.border = 'none'
+    users325.style.border = 'none'
+    users3100.style.border = 'none'
+    price3.textContent = '85 932 ₽'
+})
+
+users45.addEventListener("click", function() {
+    users45.style.border = '1px solid black'
+    users410.style.border = 'none'
+    users425.style.border = 'none'
+    users4100.style.border = 'none'
+    price4.textContent = '102 773 ₽'
+})
+
+users110.addEventListener("click", function() {
+    users110.style.border = '1px solid black'
+    users15.style.border = 'none'
+    users125.style.border = 'none'
+    users1100.style.border = 'none'
+    price1.textContent = '134 046 ₽'
+})
+
+users210.addEventListener("click", function() {
+    users210.style.border = '1px solid black'
+    users25.style.border = 'none'
+    users225.style.border = 'none'
+    users2100.style.border = 'none'
+    price2.textContent = '164 296 ₽'
+})
+
+users310.addEventListener("click", function() {
+    users310.style.border = '1px solid black'
+    users35.style.border = 'none'
+    users325.style.border = 'none'
+    users3100.style.border = 'none'
+    price3.textContent = '171 864 ₽'
+})
+
+users410.addEventListener("click", function() {
+    users410.style.border = '1px solid black'
+    users45.style.border = 'none'
+    users425.style.border = 'none'
+    users4100.style.border = 'none'
+    price4.textContent = '205 546 ₽'
+})
+
+users125.addEventListener("click", function() {
+    users125.style.border = '1px solid black'
+    users15.style.border = 'none'
+    users110.style.border = 'none'
+    users1100.style.border = 'none'
+    price1.textContent = '268 070 ₽'
+})
+
+users225.addEventListener("click", function() {
+    users225.style.border = '1px solid black'
+    users25.style.border = 'none'
+    users210.style.border = 'none'
+    users2100.style.border = 'none'
+    price2.textContent = '328 570 ₽'
+})
+
+users325.addEventListener("click", function() {
+    users325.style.border = '1px solid black'
+    users35.style.border = 'none'
+    users310.style.border = 'none'
+    users3100.style.border = 'none'
+    price3.textContent = '343 750 ₽'
+})
+
+users425.addEventListener("click", function() {
+    users425.style.border = '1px solid black'
+    users45.style.border = 'none'
+    users410.style.border = 'none'
+    users4100.style.border = 'none'
+    price4.textContent = '411 070 ₽'
+})
+
+users1100.addEventListener("click", function() {
+    users1100.style.border = '1px solid black'
+    users15.style.border = 'none'
+    users110.style.border = 'none'
+    users125.style.border = 'none'
+    price1.textContent = '547 800 ₽'
+})
+
+users2100.addEventListener("click", function() {
+    users2100.style.border = '1px solid black'
+    users25.style.border = 'none'
+    users210.style.border = 'none'
+    users225.style.border = 'none'
+    price2.textContent = '687 500 ₽'
+})
+
+users3100.addEventListener("click", function() {
+    users3100.style.border = '1px solid black'
+    users35.style.border = 'none'
+    users310.style.border = 'none'
+    users325.style.border = 'none'
+    price3.textContent = '823 900 ₽'
+})
+
+users4100.addEventListener("click", function() {
+    users4100.style.border = '1px solid black'
+    users45.style.border = 'none'
+    users410.style.border = 'none'
+    users425.style.border = 'none'
+    price4.textContent = '1 372 800 ₽'
 })
