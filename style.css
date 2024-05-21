@@ -1,0 +1,170 @@
+h1, h4, p, li, h2, a {
+    font-family: 'Montserrat';
+}
+p {
+    font-size: 13px;
+}
+h1 {
+    margin-bottom: 50px;
+}
+.type-subscription {
+    border: 2px solid #30d4c7;
+    cursor: pointer;
+    padding: 12px 40px 12px 40px;
+    margin: 5px;
+    transition: 0.3s;
+}
+.rent {
+    background-color: #30d4c7;
+    color: white;
+    transition: 0.3s;
+}
+.conteiner1 {
+    text-align: center;
+}
+.conteiner-type-subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner-crm-base, .conteiner-crm-trade, .conteiner-service-desk, .conteiner-erp, .conteiner-free {
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    max-width: 250px;
+    min-width: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 890px;
+}
+.conteiner2-crm-base, .conteiner2-crm-trade, .conteiner2-service-desk, .conteiner2-erp, .conteiner2-free {
+    text-align: center;
+}
+.conteiner-free {
+    display: none;
+}
+.price-free {
+    font-size: 30px;
+    color: #30d4c7; 
+}
+.price1, .price2, .price3, .price4 {
+    font-size: 30px;
+    color: #30d4c7;
+    margin-bottom: -15px;
+    font-weight: bold;
+}
+.conteiner-month6-year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.month61, .month62, .month63, .month64 {
+    margin-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 5px;
+}
+.year1, .year2, .year3, .year4 {
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.try-for-free-free {
+    background-color: #30d4c7;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 87px;
+}
+.try-for-free {
+    background-color: #30d4c7;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.try-for-free:hover {
+    background-color: #1f847c;
+}
+.functionality, .restrictions {
+    margin-left: 35px;
+}
+.li-conteiner2 {
+    margin-top: 10px;
+    font-size: 14.5px;
+}
+.a {
+    background-color: #30d4c7;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.a:hover {
+    background-color: #1f847c;
+}
+.conteiner-a {
+    text-align: center;
+    margin-top: 70px;
+}
+.terms-of-purchase {
+    color: #30d4c7;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.conteiner-terms-of-purchase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h4-purchasing-licenses, .h4-rental-agreement {
+    text-align: center;
+}
+.end-terms-of-purchase {
+    margin-left: 25px;
+}
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+  
+ul li {
+    padding-left: 2rem;
+    background-image: url(галочка.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+.conteiner3-crm-base {
+    margin-left: -30px;
+}
+.users1-5-10-25-100, .users2-5-10-25-100, .users3-5-10-25-100, .users4-5-10-25-100 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.users1-forever, .users2-forever, .users3-forever, .users4-forever {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.users15, .users110, .users125, .users1100, .users25, .users210, .users225, .users2100, .users35, .users310, .users325, .users3100, .users45, .users410, .users425, .users4100 {
+    margin-right: 20px;
+    font-size: 15px;
+}
+.users15, .users25, .users35, .users45 {
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
