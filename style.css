@@ -27,25 +27,32 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-.conteiner2 {
+.conteiner2-2 {
     display: flex;
     justify-content: center;
+    position: relative;
     align-items: center;
+    left: -13%;
+    transition: 1s cubic-bezier(.1, .65, .9, 1);
+}
+.conteiner2-1 {
+    margin: auto;
+    overflow: hidden
 }
 .conteiner-crm-base, .conteiner-crm-trade, .conteiner-service-desk, .conteiner-erp, .conteiner-free {
     background-color: rgb(242, 242, 242);
     padding: 20px;
-    max-width: 250px;
-    min-width: 250px;
-    margin-right: 10px;
-    margin-left: 10px;
+    max-width: 240px;
+    min-width: 240px;
+    margin-right: 15px;
+    margin-left: 15px;
     height: 890px;
 }
 .conteiner2-crm-base, .conteiner2-crm-trade, .conteiner2-service-desk, .conteiner2-erp, .conteiner2-free {
     text-align: center;
 }
 .conteiner-free {
-    display: none;
+    visibility: hidden;
 }
 .price-free {
     font-size: 30px;
@@ -61,6 +68,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .month61, .month62, .month63, .month64 {
     margin-right: 30px;
@@ -76,26 +84,23 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
 }
-.try-for-free-free {
-    background-color: #30d4c7;
-    padding: 12px;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-top: 87px;
-}
 .try-for-free {
     background-color: #30d4c7;
     padding: 12px;
     color: white;
     cursor: pointer;
     transition: 0.3s;
+    text-decoration: none;
+}
+.one-user {
+    margin-bottom: 94px;
 }
 .try-for-free:hover {
     background-color: #1f847c;
 }
 .functionality, .restrictions {
     margin-left: 35px;
+    margin-top: 35px;
 }
 .li-conteiner2 {
     margin-top: 10px;
@@ -156,14 +161,47 @@ ul li {
     display: none;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
-.users15, .users110, .users125, .users1100, .users25, .users210, .users225, .users2100, .users35, .users310, .users325, .users3100, .users45, .users410, .users425, .users4100 {
+.users115, .users1110, .users1125, .users11100, .users125, .users1210, .users1225, .users12100, .users135, .users1310, .users1325, .users13100, .users145, .users1410, .users1425, .users14100, .users215, .users2110, .users2125, .users21100, .users225, .users2210, .users2225, .users22100, .users235, .users2310, .users2325, .users23100, .users245, .users2410, .users2425, .users24100{
     margin-right: 20px;
     font-size: 15px;
     cursor: pointer;
     padding: 6px;
     border-radius: 3px;
 }
-.users15, .users25, .users35, .users45 {
+.users115, .users125, .users135, .users145, .users215, .users225, .users235, .users245 {
     border: 1px solid black;
+}
+.free-btn-conteiner {
+    background-color: #30d4c7;
+    display: flex;
+    width: 36px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    left: 14px;
+    z-index: 3;
+    top: 270px;
+}
+.erp-btn-conteiner {
+    background-color: #30d4c7;
+    display: flex;
+    width: 36px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    right: 14px;
+    z-index: 3;
+    top: 270px;
+    display: none;
+}
+.free-btn, .erp-btn{
+    color: white;
+    writing-mode: vertical-rl;
+    margin-top: 14px;
+    margin-left: -2px;
+}
+.erp-free-js, .free-js {
+    margin-top: -12px;
 }
