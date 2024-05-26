@@ -183,6 +183,13 @@ rent.addEventListener("click", function() {
     users3_forever.style.display = 'none'
     users4_forever.style.display = 'none'
     free_btn_conteiner.style.display = 'block'
+    const mediaQuery = window.matchMedia('(max-width: 1200px)')
+    if (mediaQuery.matches) {
+        conteiner2_2.style.left = 'auto'
+        conteiner_free.style.display = 'block'
+        conteiner_free.style.visibility = 'visible'
+        free_btn_conteiner.style.display = 'none'
+    }
 })
 
 purchase.addEventListener("click", function() {
@@ -234,6 +241,13 @@ purchase.addEventListener("click", function() {
     conteiner_free.style.visibility = 'hidden'
     conteiner_erp.style.visibility = 'visible'
     erp_free_js.style.display = 'block'
+    conteiner2_2.style.left = 'auto'
+    conteiner2_2.style.left = '-166px'
+    const mediaQuery = window.matchMedia('(max-width: 1200px)')
+    if (mediaQuery.matches) {
+        conteiner2_2.style.left = 'auto'
+        conteiner_free.style.display = 'none'
+    }
 })
 
 subscription.addEventListener("click", function() {
@@ -282,6 +296,16 @@ subscription.addEventListener("click", function() {
     users4_forever.textContent = 'пользователей на год'
     erp_btn_conteiner.style.display = 'none'
     free_btn_conteiner.style.display = 'none'
+    conteiner_free.style.visibility = 'hidden'
+    conteiner_erp.style.visibility = 'visible'
+    erp_free_js.style.display = 'block'
+    conteiner2_2.style.left = 'auto'
+    conteiner2_2.style.left = '-166px'
+    const mediaQuery = window.matchMedia('(max-width: 1200px)')
+    if (mediaQuery.matches) {
+        conteiner2_2.style.left = 'auto'
+        conteiner_free.style.display = 'none'
+    }
 })
 
 users115.addEventListener("click", function() {

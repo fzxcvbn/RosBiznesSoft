@@ -32,12 +32,12 @@ h1 {
     justify-content: center;
     position: relative;
     align-items: center;
-    left: -13%;
+    left: -166px;
     transition: 1s cubic-bezier(.1, .65, .9, 1);
 }
 .conteiner2-1 {
     margin: auto;
-    overflow: hidden
+    overflow: hidden;
 }
 .conteiner-crm-base, .conteiner-crm-trade, .conteiner-service-desk, .conteiner-erp, .conteiner-free {
     background-color: rgb(242, 242, 242);
@@ -205,3 +205,43 @@ ul li {
 .erp-free-js, .free-js {
     margin-top: -12px;
 }
+
+@media (max-width: 1200px) {
+    .conteiner2-2 {
+        display: block;
+        left: auto;
+    }
+    .free-btn-conteiner {
+        display: none;
+    }
+    .conteiner3-crm-base {
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+    }
+    .conteiner-free {
+        visibility: visible;
+        margin-bottom: 10px; 
+        max-width: none;
+    }
+    .conteiner-crm-base {
+        visibility: visible;
+        margin-bottom: 10px; 
+        max-width: none;
+    }
+    .conteiner-crm-trade {
+        visibility: visible;
+        margin-bottom: 10px; 
+        max-width: none;
+    }
+    .conteiner-service-desk {
+        visibility: visible;
+        margin-bottom: 10px; 
+        max-width: none;
+    }
+    .conteiner-erp {
+        visibility: visible;
+        margin-bottom: 10px; 
+        max-width: none;
+    }
+  }
