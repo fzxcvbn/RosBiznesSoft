@@ -584,4 +584,5 @@ erp_btn_conteiner.addEventListener("click", function() {
     conteiner2_2.style.transitionTimingFunction = 'linear'
     free_js.style.display = 'none'
     erp_free_js.style.display = 'block'
+    crossed_out_price4.style.visibility = 'visible'
 })
